@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prudhvi Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/prudhvi3.png" alt="portfolio">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="intro">
+            <h1 class="section__title section__title--intro">
+                The title <strong>Discussion Board</strong> 
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Shared Platform.</p>
+            <img class="intro__img" src="img/discussionboard.jpg" alt="a picture of area" />
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>The Discussion Board project, a collaborative effort undertaken during my undergraduate studies,
+                 is a MERN stack-based website designed to address the needs of students who may hesitate to ask
+                  questions in a traditional classroom setting. Functioning as a discussion forum, students create
+                   accounts on the platform, allowing them to post questions. Any registered user, including fellow
+                    students and faculty members, can then respond to these queries. My primary focus in this group
+                     project was on the backend development using Node.js and MongoDB. I was responsible for crafting
+                      APIs and implementing various functionalities within the Node.js environment. The decision to
+                       use MongoDB as our database system was driven by its NoSQL structure, providing ease of data 
+                       querying and retrieval. This project provided me with a comprehensive
+                 understanding of backend development, honing my skills in Node.js and deepening my insights into 
+                 the storage mechanisms employed by MongoDB</p>
+            <!-- <img src="img/portfolio-01.jpg" alt=""> -->
+            <p>Through this endeavor, I not only contributed to the creation of a valuable tool for
+                 students but also expanded my knowledge of MERN stack technologies, enhancing my ability
+                  to develop robust and functional backend systems for web applications. This project
+                   became a cornerstone in my academic journey, fostering a passion for web development
+                    and laying the groundwork for further exploration in the field.</p>
+
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:prudhvimyadam@gmail.com" class="footer__link">prudhvimyadam@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href=""><i class="fab fa-twitter"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href=""><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href=""><i class="fab fa-instagram"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
